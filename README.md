@@ -1,6 +1,6 @@
 # Super Mario Bros Clone
 
-This project is a minor clone of SMB with custom levels implemented in Java Swing. To play Audio files in my game, I used the Slick2D library.
+This project is a minor clone of SMB with custom levels implemented in Java Swing.
 
 ## Instructions
 The main objective of this game is to rescue the princess with the maximum score as possible. There are 4 levels in this game, each having a time limit of 60 seconds. The player has to complete a level within these 60 seconds. The score obtained at the end of each level is multiplied by the square root of the remaining time. So time is a very important factor to take into account.
@@ -21,7 +21,16 @@ The main objective of this game is to rescue the princess with the maximum score
 
 ## Screen Shots
 
-![alt text](Resources/SMB1.PNG)
+![alt text](res/image/smb1.png)
 
 <br></br>
-![alt text](Resources/SMB2.PNG)
+![alt text](res/image/smb2.png)
+
+## External Libraries
+* [TinySound](https://github.com/finnkuusisto/TinySound) :  A simple sound system that wraps the standard Java sound libraries.
+
+## Contributing
+All pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Author
+* **Samuel Menezes**
